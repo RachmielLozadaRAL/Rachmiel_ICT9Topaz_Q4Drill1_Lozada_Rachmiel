@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Consumption Classifier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ByrK_KPTpb73MXbe9k8d_pYmveVy92kHgw&s);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin-right: 10px;
+            width: 200px;
+        }
+        input[type="button"] {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" id="kWh" placeholder="Enter kWh consumption">
+        <input type="button" onclick="kWh_classifier()" value="Classify">
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
